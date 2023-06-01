@@ -1,16 +1,29 @@
 body {
     font-family: 'Roboto', sans-serif;
+    font-weight: 500;
 }
+
+/* header */
 
 .header {}
 
 .header-navigation {}
 
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
 .logo {
-    font-family: 'Raleway';
+    font-family: 'Raleway', sans-serif;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.17;
+    display: flex;
+    align-items: center;
     letter-spacing: 0.03em;
     text-transform: uppercase;
     color: #4D5AE5;
@@ -20,13 +33,17 @@ body {
     color: #2E2F42;
 }
 
+.logo-white {
+    color: #F4F4FD;
+}
+
 .header-menu-nav {}
 
 .menu-nav-item {}
 
 .menu-nav-link {}
 
-.contact{}
+.contact {}
 
 .contact-list {}
 
@@ -37,23 +54,131 @@ body {
 .contact-phone {}
 
 
+/* section main-content */
+
 .main-content {}
 
 .hero {
     background-color: #2E2F42;
 }
 
-.hero-title {}
+.hero-title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 56px;
+    line-height: 1.07;
+        
+    
+    text-align: center;
+    letter-spacing: 0.02em;
+    
+    color: #FFFFFF;
+}
 
-.hero-btn {}
+.hero-btn {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.04em;
+    
+    color: #FFFFFF;
+    cursor: pointer;
+}
 
+
+/* section description */
+
+.description {}
+
+.description-list {}
+
+.description-list-item {}
+
+.description-title {}
+
+.about-description {}
+
+
+/* section work */
+
+.work {}
+
+.title {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.11;
+    
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+    color: #2E2F42;
+}
+
+.work-list {}
+
+.work-list-item {}
+
+.work-item-img {}
+
+
+/* section our-team */
+
+.our-team {
+    background-color: #F4F4FD;;
+}
+
+.team-list {}
+
+.team-list-item {}
+
+.team-photo {}
+
+.team-title {}
+
+.team-position {}
+
+
+/* section portfolio-content */
+
+.portfolio-content {}
+
+.projects {}
+
+.portfolio-title {}
+
+.projects-filters-list {}
+
+.projects-filters-btn {}
+
+.filter-btn {
+    cursor: pointer;
+}
+
+.projects-list {}
+
+.projects-item {}
+
+.projects-link {}
+
+.project-img {}
+
+.project-title {}
+
+.projects-filters {}
+
+
+/* section footer */
 
 .footer {
     background-color: #2E2F42;
-}
-
-.logo-white {
-    color: #F4F4FD;
 }
 
 .footer-text {
