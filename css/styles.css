@@ -14,7 +14,7 @@ body {
 }
 
 .list {
-    list-style: none;
+    list-style-type: none;
 }
 
 .logo {
@@ -41,7 +41,12 @@ body {
 
 .menu-nav-item {}
 
-.menu-nav-link {}
+.menu-nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #2E2F42;
+}
 
 .contact {}
 
@@ -49,10 +54,21 @@ body {
 
 .contact-item {}
 
-.contact-mail {}
+.contact-mail,
+.contact-phone {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #434455;
+}
 
-.contact-phone {}
-
+.contact-mail:hover,
+.contact-mail:focus,
+.contact-phone:hover,
+.contact-phone:focus {
+    color: #4D5AE5;
+}
 
 /* section main-content */
 
