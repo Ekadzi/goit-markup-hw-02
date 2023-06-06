@@ -217,16 +217,50 @@ body {
 
 .projects {}
 
-.portfolio-title {}
-
-.projects-filters-list {}
+.projects-filters-list {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 24px;
+    position: absolute;
+    width: 586px;
+    height: 48px;
+    left: 427px;
+    top: 168px;
+}
 
 .projects-filters-btn {}
 
 .filter-btn {
+    font-family: inherit;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex;
+    text-align: center;
+    letter-spacing: 0.04em;
+    color: #4D5AE5;
+
+
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    width: 116px;
+    height: 48px;
+    background: #F4F4FD;
+    border: 1px solid #E7E9FC;
+    border-radius: 4px;
     cursor: pointer;
 }
 
+.filter-btn:hover,
+.filter-btn:focus {
+    color: #FFFFFF;
+    background-color: #404BBF;
+}
 .projects-list {}
 
 .projects-item {}
